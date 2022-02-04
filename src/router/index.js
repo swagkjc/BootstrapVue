@@ -97,6 +97,11 @@ const routes = [
     path: '/datatable1',
     name: 'Data Table 1',
     component: () => import('../views/DataTable1.vue')
+  },
+  {
+    path: '/productform1',
+    name: 'Product Form 1',
+    component: () => import('../views/ProductForm1.vue')
   }
 ]
 
