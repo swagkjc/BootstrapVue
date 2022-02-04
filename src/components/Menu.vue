@@ -53,6 +53,12 @@
       <b-nav-item class="sub-menu" v-if="showForm" to="./form1"
         >Form 1</b-nav-item
       >
+      <b-nav-item class="sub-menu" v-if="showForm" to="./form2"
+        >Form 2</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showForm" to="./form3"
+        >Form 3</b-nav-item
+      >
     </b-nav>
   </div>
 </template>
