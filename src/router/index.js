@@ -102,7 +102,13 @@ const routes = [
     path: '/productform1',
     name: 'Product Form 1',
     component: () => import('../views/ProductForm1.vue')
+  },
+  {
+    path: '/productTable',
+    name: 'Product Table',
+    component: () => import('../views/product/ProductTable.vue')
   }
+
 ]
 
 const router = new VueRouter({
