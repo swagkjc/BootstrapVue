@@ -10,7 +10,7 @@
                 <NavBar />
               </b-col>
             </b-row>
-            <b-row>
+            <b-row class="text-justify">
               <b-col><router-view /></b-col>
             </b-row>
           </b-container>

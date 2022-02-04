@@ -72,6 +72,11 @@ const routes = [
     path: '/formInput11',
     name: 'FormInput11',
     component: () => import('../views/FormInput11.vue')
+  },
+  {
+    path: '/form1',
+    name: 'Form1',
+    component: () => import('../views/Form1.vue')
   }
 ]
 

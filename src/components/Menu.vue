@@ -43,6 +43,16 @@
       <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput11"
         >Form Input 11</b-nav-item
       >
+
+      <b-nav-item @click="showForm = !showForm"
+        >Form
+        <b-icon
+          :icon="showForm ? 'caret-down-fill' : 'caret-right-fill'"
+        ></b-icon
+      ></b-nav-item>
+      <b-nav-item class="sub-menu" v-if="showForm" to="./form1"
+        >Form 1</b-nav-item
+      >
     </b-nav>
   </div>
 </template>
@@ -50,7 +60,8 @@
 export default {
   data () {
     return {
-      showFormInput: false
+      showFormInput: false,
+      showForm: false
     }
   }
 }
