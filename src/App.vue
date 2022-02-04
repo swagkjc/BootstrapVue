@@ -1,13 +1,34 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <b-container fluid>
+      <b-row>
+        <b-col cols="2"><Menu /></b-col>
+        <b-col cols="10">
+          <b-container>
+            <b-row>
+              <b-col>
+                <NavBar />
+              </b-col>
+            </b-row>
+            <b-row>
+              <b-col><router-view /></b-col>
+            </b-row>
+          </b-container>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
-
+<script>
+import NavBar from './components/NavBar.vue'
+import Menu from './components/Menu.vue'
+export default {
+  components: {
+    NavBar,
+    Menu
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
