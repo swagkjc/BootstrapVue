@@ -27,6 +27,21 @@ const routes = [
     path: '/formInput2',
     name: 'FormInput2',
     component: () => import('../views/FormInput2.vue')
+  },
+  {
+    path: '/formInput3',
+    name: 'FormInput3',
+    component: () => import('../views/FormInput3.vue')
+  },
+  {
+    path: '/formInput4',
+    name: 'FormInput4',
+    component: () => import('../views/FormInput4.vue')
+  },
+  {
+    path: '/formInput5',
+    name: 'FormInput5',
+    component: () => import('../views/FormInput5.vue')
   }
 ]
 

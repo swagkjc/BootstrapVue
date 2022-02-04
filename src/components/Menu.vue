@@ -16,6 +16,15 @@
       <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput2"
         >Form Input 2</b-nav-item
       >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput3"
+        >Form Input 3</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput4"
+        >Form Input 4</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput5"
+        >Form Input 5</b-nav-item
+      >
     </b-nav>
   </div>
 </template>
