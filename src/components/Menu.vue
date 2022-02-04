@@ -25,6 +25,24 @@
       <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput5"
         >Form Input 5</b-nav-item
       >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput6"
+        >Form Input 6</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput7"
+        >Form Input 7</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput8"
+        >Form Input 8</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput9"
+        >Form Input 9</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput10"
+        >Form Input 10</b-nav-item
+      >
+      <b-nav-item class="sub-menu" v-if="showFormInput" to="./formInput11"
+        >Form Input 11</b-nav-item
+      >
     </b-nav>
   </div>
 </template>

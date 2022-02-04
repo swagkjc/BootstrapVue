@@ -42,6 +42,36 @@ const routes = [
     path: '/formInput5',
     name: 'FormInput5',
     component: () => import('../views/FormInput5.vue')
+  },
+  {
+    path: '/formInput6',
+    name: 'FormInput6',
+    component: () => import('../views/FormInput6.vue')
+  },
+  {
+    path: '/formInput7',
+    name: 'FormInput7',
+    component: () => import('../views/FormInput7.vue')
+  },
+  {
+    path: '/formInput8',
+    name: 'FormInput8',
+    component: () => import('../views/FormInput8.vue')
+  },
+  {
+    path: '/formInput9',
+    name: 'FormInput9',
+    component: () => import('../views/FormInput9.vue')
+  },
+  {
+    path: '/formInput10',
+    name: 'FormInput10',
+    component: () => import('../views/FormInput10.vue')
+  },
+  {
+    path: '/formInput11',
+    name: 'FormInput11',
+    component: () => import('../views/FormInput11.vue')
   }
 ]
 
