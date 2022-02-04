@@ -62,6 +62,16 @@
       <b-nav-item class="sub-menu" v-if="showForm" to="./form4"
         >Form 4</b-nav-item
       >
+
+      <b-nav-item @click="showCrudExample = !showCrudExample"
+        >CRUD Example
+        <b-icon
+          :icon="showCrudExample ? 'caret-down-fill' : 'caret-right-fill'"
+        ></b-icon
+      ></b-nav-item>
+      <b-nav-item class="sub-menu" v-if="showCrudExample" to="./datatable1"
+        >Data table 1</b-nav-item
+      >
     </b-nav>
   </div>
 </template>
@@ -70,7 +80,8 @@ export default {
   data () {
     return {
       showFormInput: false,
-      showForm: false
+      showForm: false,
+      showCrudExample: false
     }
   }
 }

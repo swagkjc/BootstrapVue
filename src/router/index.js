@@ -92,6 +92,11 @@ const routes = [
     path: '/form4',
     name: 'Form4',
     component: () => import('../views/Form4.vue')
+  },
+  {
+    path: '/datatable1',
+    name: 'Data Table 1',
+    component: () => import('../views/DataTable1.vue')
   }
 ]
 
